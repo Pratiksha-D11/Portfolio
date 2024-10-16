@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Responsive Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Link for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+  
+</head>
+
+<body>
+ <nav>
+    <!-- Checkbox for toggling menu -->
+    <input type="checkbox" id="check">
+
+    <!-- Menu icon -->
+    <label for="check" class="checkbtn">
+      <i class="fas fa-bars"></i>
+    </label>
+
+    <!-- Site logo -->
+    <label class="logo">Portfolio</label>
+
+    <!-- Navigation links -->
+    <ul>
+      <li><a class="active" href="#home">Home</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Portfolio</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
+
+
+  <!--About Section-->
+  <div class="about-container">
+    <div class="about-contents">
+        <!--Image Section-->
+        <section class="imagesection">
+            <img src="Assets\Profile-Photo.jpeg">
+        </section>
+        <!--image section Ends-->
+
+        <!--info section starts-->
+        <section class="infosection">
+            <h1>About Me</h1>
+            <h2>Aspiring Software Engineer || Programmer || Web Designer</h2>
+            <p>Hello Everyone.</p>
+            <p>My name is Pratiksha Deshmukh. I completed my graduation in Computer Science from Vishwakarma College of Arts, Commerce and Science.</p>
+            <p>I further pursued my MSc in Computer Science from the same college, enhancing my skills and knowledge in the field.</p>
+            <div class="button">
+                <button>Download Resume</button>
+            </div>
+            <div class="socialicons">
+                <a href="#" aria-label="Instagram"><i class="fab fa-instagram fa-2x" style="color: #ac2bac;"></i></a>
+                <a href="https://www.linkedin.com/in/pratiksha-deshmukh-754b3021a/" aria-label="LinkedIn"><i class="fab fa-linkedin-in fa-2x" style="color: #0082ca;"></i></a>
+                <a href="https://github.com/pratiksha-D11" aria-label="GitHub"><i class="fab fa-github fa-2x" style="color: #333333;"></i></a>
+            </div>
+        </section>
+        
+        <!--info section Ends here-->
+    </div>
+  </div>
+<!--skills section starts here-->
+
+<div class="skillscontainer" id="skills">
+    <h1>My Skills</h1>
+    <div class="skills">
+        <div class="skill1">
+            <span>HTML</span>
+            <div class="progress">
+                <div class="progress-bar html" style="width: 80%;"></div>
+            </div>
+            <span>CSS</span>
+            <div class="progress">
+                <div class="progress-bar css" style="width: 65%;"></div>
+            </div>
+            <span>JavaScript</span>
+            <div class="progress">
+                <div class="progress-bar js" style="width: 75%;"></div>
+            </div>
+            <span>react js</span>
+            <div class="progress">
+                <div class="progress-bar js" style="width: 60%;"></div>
+            </div>
+            <span>Jquery</span>
+            <div class="progress">
+                <div class="progress-bar js" style="width: 70%;"></div>
+            </div>
+            <span>Bootstrap</span>
+            <div class="progress">
+                <div class="progress-bar js" style="width: 60%;"></div>
+            </div>
+        </div>
+
+        <div class="skill2">
+            <span>java</span>
+            <div class="progress">
+                <div class="progress-bar react" style="width: 60%;"></div>
+            </div>
+            <span>Python</span>
+            <div class="progress">
+                <div class="progress-bar python" style="width: 30%;"></div>
+            </div>
+        </div>
+
+        <div class="skill3">
+            <span>Sql</span>
+            <div class="progress">
+                <div class="progress-bar php" style="width: 70%;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--skill section Ends here-->
+
+<div class="container" id="portfolio">
+    <main class="row">
+        <!-- Education Section -->
+        <section class="col">
+            <header class="title">
+                <h2>EDUCATION</h2>
+            </header>
+            <div class="contents">
+                <div class="box">
+                    <h4>2018 - 2021</h4>
+                    <h3>Bsc Computer Science</h3>
+                   
+                </div>
+
+                <div class="box">
+                    <h4>2021 - 2023</h4>
+                    <h3>Msc Computer Science</h3>
+                   
+                </div>
+            </div>
+        </section>
+        <!-- Education Section Ends -->
+
+        <!-- Experience Section -->
+        <section class="col">
+            <header class="title">
+                <h2>EXPERIENCE</h2>
+            </header>
+            <div class="contents">
+                <div class="box">
+                    <h4>June 2021 - Oct 2021</h4>
+                    <h3>Neeyamo , <span>Service Delivery Executive</span></h3>
+                    <p>Worked in document verification and background verification processes, ensuring accuracy and compliance with company standards.</p>
+                </div>
+
+                <div class="box">
+                    <h4>April 2022 - Jan 2023</h4>
+                    <h3>Bitwise Solutions ,<span>Trainee Programmer</span></h3>
+                    <p>Technology used : JavaScript , jquery , sharepoint</p>
+                </div>
+            </div>
+        </section>
+        <!-- Experience Section Ends -->
+    </main>
+</div>
+
+    </main>
+</div>
+
+<!--Portfolio section-->
+<div class="portfolio">
+<section class="portfolio-section">
+    <header class="portfolio-title">
+        <h2>PORTFOLIO</h2>
+    </header>
+    <div class="portfolio-contents">
+        <div class="portfolio-box">
+            <h3>My GitHub Projects</h3>
+            <p>I have created several projects for practice and learning.feel free to visit and explore them.</p>
+            <a href="https://github.com/pratiksha-D11" class="github-button" target="_blank">Visit My GitHub</a>
+        </div>
+    </div>
+</section>
+</div>
+<!--Contact Section-->
+<div class="contact" id="contact">
+    <section class="contact-section">
+        <header class="contact-header">
+            <h2>CONTACT ME</h2>
+        </header>
+        <div class="contact-contents">
+            <div class="contact-box">
+                <form name=" ">
+                    <input type="text" name="NAME" placeholder="Name" required>
+                    <input type="email" name="EMAIL" placeholder="Email" required>
+                    <input type="text" name="SUBJECT" placeholder="Subject">
+                    <textarea name="MESSAGE" placeholder="Message" required></textarea>
+                    <input type="submit" value="Send Message" class="submit-button">
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </section>
+</div>
+
+<!--footer-->
+<footer class="footer">
+    <small class="message">Thanks for visiting!</small>
+    <small class="copyright">&copy; copyright Pratiksha. All rights reserved.</small>
+   </footer>
+
+    
+</div>
+</body>
+
+</html>
